@@ -25,7 +25,6 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "`npm bin`/tsc",
-    "prepublish": "npm run build"
+    "build": "`npm bin`/tsc"
   }
 }
