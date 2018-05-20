@@ -1,3 +1,4 @@
 *.ts
-!dist
+!*.js
+!*.js.map
 !*.d.ts

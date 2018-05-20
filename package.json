@@ -4,8 +4,7 @@
   "author": "Sid Jain",
   "description": "Extendable environment config with webpack with Typescript support",
   "version": "0.0.2",
-  "main": "dist",
-  "typings": "dist/index.d.ts",
+  "typings": "index.d.ts",
   "license": "MIT",
   "dependencies": {
     "node-config-ts": "^1.2.2"
@@ -26,6 +25,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "`npm bin`/tsc"
+    "build": "`npm bin`/tsc",
+    "prepublish": "npm run build"
   }
 }
