@@ -24,7 +24,7 @@
     }
   },
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rm -rf *.js *.js.map *.d.ts",
     "build": "`npm bin`/tsc"
   }
 }
