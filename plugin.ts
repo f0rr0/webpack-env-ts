@@ -5,13 +5,11 @@ export interface IWebpackEnvTsPluginOptions {
   verbose?: boolean;
 }
 
-export default class WebpackEnvTsPlugin {
-  static Config: Config = config;
-  options: IWebpackEnvTsPluginOptions;
-  
+export default class WebpackEnvTsPlugin implements Plugin {
+  static Config = config;
+
   constructor(options?: IWebpackEnvTsPluginOptions) {
-    this.options = options || {};
-    if (this.options.verbose) {
+    if (options && options.verbose) {
       console.log("Applying configuration", JSON.stringify(config, null, 2));
     }
   }
