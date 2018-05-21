@@ -1,4 +1,4 @@
-import { config } from "node-config-ts";
+import { config, Config } from "@f0rr0/node-config-ts";
 import { Plugin, Compiler, DefinePlugin } from "webpack";
 
 export interface IWebpackEnvTsPluginOptions {
@@ -6,7 +6,7 @@ export interface IWebpackEnvTsPluginOptions {
 }
 
 export default class WebpackEnvTsPlugin implements Plugin {
-  static Config = config;
+  static Config: Config = config;
 
   constructor(options?: IWebpackEnvTsPluginOptions) {
     if (options && options.verbose) {
