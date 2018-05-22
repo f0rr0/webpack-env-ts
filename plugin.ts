@@ -6,7 +6,7 @@ export interface IWebpackEnvTsPluginOptions {
 }
 
 export default class WebpackEnvTsPlugin implements Plugin {
-  static Config = config;
+  static Config: Config = config;
 
   constructor(options?: IWebpackEnvTsPluginOptions) {
     if (options && options.verbose) {
