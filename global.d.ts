@@ -1,2 +1,1 @@
-interface Config {}
-declare const __CONFIG__: Config
+interface Config { }

@@ -3,7 +3,7 @@
   "repository": "https://github.com/f0rr0/webpack-env-ts",
   "author": "Sid Jain",
   "description": "Extendable environment config with webpack with Typescript support",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "typings": "index.d.ts",
   "license": "MIT",
   "dependencies": {
