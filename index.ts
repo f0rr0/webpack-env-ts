@@ -2,4 +2,6 @@ declare global {
   const __CONFIG__: Config;
 }
 
-export default __CONFIG__;
+const Config = __CONFIG__;
+
+export default Config;
