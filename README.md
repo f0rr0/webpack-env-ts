@@ -1,4 +1,7 @@
 ## webpack-env-ts
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/f0rr0/webpack-env-ts.svg)](https://greenkeeper.io/)
+
 Use custom environment configurations in front-end projects with type safety and hints.
 
 ### Motivation
